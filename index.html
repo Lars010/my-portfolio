@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/index.css">
+</head>
+
+<body>
+    <header class="header">
+        <div class="wrapper">
+            <div class="header-content">
+                <img src="./images/logo.png" width="70" height="20" alt="Logo" title="Logo">
+                <nav class="menu" aria-label="main-navigation">
+                    <ul>
+                        <li>
+                            <a class="is-active" href="#main">Hi</a>
+                        </li>
+                        <li>
+                            <a href="#project">Projects</a>
+                        </li>
+                        <li>
+                            <a href="#contact">Let's talk</a>
+                        </li>
+                    </ul>
+                </nav>
+                <button class="button">Curriculum</button>
+            </div>
+        </div>
+    </header>
+    <div class="wrapper">
+        
+
+        <section aria-label="main" class="hero" id="main">
+            <div class="hero-image">
+                <img src="./images/mifoto.png" width="375" height="330" alt="Mifoto" title="MiFoto">
+            </div>
+            <div class="hero-description">
+                <h1>
+                    <span>Hi everyone!</span>
+                    <span>I'm Jose</span>
+                </h1>
+                <p>
+                    Frontend Developer who loves implementing designs that inspire and engage people.
+                </p>
+                <div class="social">
+                    <a class="button-icon" href="tel:5555555555"><img src="./icons/icon-phone.svg"></a>
+                    <a class="button-icon" href="tel:5555555555"><img src="./icons/icon-important_mail.svg"></a>
+                    <a class="button-icon" href="tel:5555555555"><img src="./icons/icon-instagram.svg"></a>
+                    <a class="button-icon" href="tel:5555555555"><img src="./icons/icon-twitter_squared.svg"></a>
+                </div>
+                <a href="https://giemcoea.com" id="hidden-button" class="button">Download curriculum</a>
+            </div>
+        </section>
+      
+        <div class="aboutme">
+            <div class="aboutme-content">
+                <p>
+                    Throughout my career as a Frontend, I have had the privilege of working on challenging and incredible
+                    projects.
+                </p>
+                <span>Here are some that I would like to share.</span>
+                <img src="./icons/arrow-down.png" alt="seguir leyendo" title="seguir leyendo hacia abajo">
+            </div>
+        </div>
+
+        <div id="project" class="testimony">
+            <div class="testimony-image">
+                <img src="./images/leonidas-esteban.png">
+            </div>
+            <div class="testimony-description">
+                <a class="title" target="_blank" href="https://leonidasesteban.com">Leonidasesteban.com</a>
+                <p>Accede a más de 120 proyectos que te ayudarán a mejorar
+                    tus habilidades como desarrollador Front-End.</p>
+                <a target="_blank" href="https://github.com" class="button is-secondary">See Code</a>
+                <a target="_blank" href="https://leonidasesteban.com" class="button">See Project</a>
+            </div>
+        </div>
+
+        <div class="comment">
+            <div class="comment-content">
+                <img src="./images/leonidas.png" alt="leonidas" title="leonidas esteban">
+                <p>“Jose has been very helpful in speeding up certain development efforts. What would have taken us 6
+                    months only took them 1.5 months.”</p>
+                <span>LEONIDAS ESTEBAN / COFUNDADOR AND CEO LEONIDASESTEBAN.COM</span>
+            </div>
+        </div>
+
+        <div class="testimony">
+            <div class="testimony-image">
+                <img src="./images/marvol.png">
+            </div>
+            <div class="testimony-description">
+                <a class="title" target="_blank" href="https://leonidasesteban.com">Marvol</a>
+                <p>It is the official site of Marvol Entertainment. Explore official Marvol movies, characters, comics,
+                    TV shows, videos and more.</p>
+                <a target="_blank" href="https://github.com" class="button is-secondary">See Code</a>
+                <a target="_blank" href="https://leonidasesteban.com" class="button">See Project</a>
+            </div>
+        </div>
+
+        <div class="comment">
+            <div class="comment-content">
+                <img src="./images/jason.png" alt="jason" title="Jason Lopez">
+                <p>“Jose has exceeded my expectations from design to development."</p>
+                <span>JASON LOPEZ / MARVOL CO-FOUNDER & CEO</span>
+            </div>
+        </div>
+
+        <div class="testimony">
+            <div class="testimony-image">
+                <img src="./images/netnet.png">
+            </div>
+            <div class="testimony-description">
+                <a class="title" target="_blank" href="https://leonidasesteban.com">Netnet</a>
+                <p>Unlimited movies and series and much more.
+                    Enjoy where you want. Cancel whenever you want.</p>
+                <a target="_blank" href="https://github.com" class="button is-secondary">See Code</a>
+                <a target="_blank" href="https://leonidasesteban.com" class="button">See Project</a>
+            </div>
+        </div>
+
+        <div class="comment">
+            <div class="comment-content">
+                <img src="./images/marco.png" alt="marco" title="Marco Cortez">
+                <p>"For the first time in our company's history, we were featured on every platform we work on."</p>
+                <span>MARCO CORTEZ / NETNET</span>
+            </div>
+        </div>
+
+        <form action="" method="POST" id="contact" class="form">
+            <div class="form-content">
+                <h2 class="title">Let's talk</h2>
+                <p>If you are interested in working with me on your next project,
+                    Do not hesitate to contact me.</p>
+                <label for="form-name">
+                    Full Name
+                    <input required name="name" id="form-name" type="text" placeholder="Nick Holmes">
+                </label>
+                <label for="form-name">
+                    E-mail
+                    <input required name="email" id="form-name" type="email" placeholder="nick445@gmail.com">
+                </label>
+                <label for="form-name">
+                    Message
+                    <textarea required name="message" id="form-message" placeholder="message" cols="30"
+                        rows="7"></textarea>
+                </label>
+                <button class="button" type="submit">Send Message</button>
+            </div>
+        </form>
+        <footer class="footer">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <img src="./images/logo-blanco.png" width="70" height="20" alt="Logo" title="Logo">
+                </div>
+                <div class="social">
+                    <a class="button-icon" href="tel:5555555555"><img src="./icons/icon-phone.svg"></a>
+                    <a class="button-icon" href="tel:5555555555"><img src="./icons/icon-important_mail.svg"></a>
+                    <a class="button-icon" href="tel:5555555555"><img src="./icons/icon-instagram.svg"></a>
+                    <a class="button-icon" href="tel:5555555555"><img src="./icons/icon-twitter_squared.svg"></a>
+                </div>
+                <p>
+                    Copyright 2022 - Todos los derechos reservados.
+                </p>
+            </div>
+        </footer>
+    </div>
+
+
+</body>
+
+</html>

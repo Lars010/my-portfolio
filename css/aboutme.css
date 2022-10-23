@@ -1,0 +1,32 @@
+.aboutme {
+    display: flex;
+    justify-content: center;
+    
+}
+
+.aboutme-content {
+    inline-size: 360px;
+    text-align: center;
+}
+
+.aboutme-content p {
+    font: var(--fontBase);
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 39px;
+    margin-block-start: 54px;
+}
+
+.aboutme-content span {
+    font: var(--headline5);
+    text-align: center;
+    margin-block-start: 24px;
+    margin-block-end: 24px;
+}
+
+.aboutme-content img {
+    display: block;
+    margin-inline: 140px;
+    margin-block-start: 24px;
+    
+}

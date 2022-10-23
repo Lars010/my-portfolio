@@ -1,0 +1,39 @@
+.comment {
+    border: 1px solid white;
+    padding: 24px;
+    margin-block-start: 40px;
+    margin-block-end: 120px;
+    background: rgba(151, 200, 237, 0.549);
+    border-radius: 24px;
+}
+
+.comment-content {
+    text-align: center;
+}
+
+
+.comment-content p {
+    font-weight: 700;
+    line-height: 25px;
+}
+
+.comment-content span {
+    font: var(--caption);
+}
+
+@media screen and (min-width: 768px) {
+
+    .comment {
+        margin-block-end: 80px;
+    }
+
+    .comment-content p {
+    font: var(--headline4);
+    }
+
+    .comment-content span {
+        font: var(--headline5);
+        color: rgb(29, 127, 160);
+        
+    }
+}
